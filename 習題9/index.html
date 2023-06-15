@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>示例</title>
+  <style>
+    .page {
+      display: none;
+    }
+
+    .page.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#" id="homeLink">首頁</a></li>
+      <li><a href="#" id="registerLink">註冊</a></li>
+      <li><a href="#" id="loginLink">登入</a></li>
+      <li><a href="#" id="logoutLink">登出</a></li>
+    </ul>
+  </nav>
+
+  <div id="homePage" class="page active">
+    <h1>歡迎來到首頁</h1>
+  </div>
+
+  <div id="registerPage" class="page">
+    <h1>註冊頁面</h1>
+  </div>
+
+  <div id="loginPage" class="page">
+    <h1>登入頁面</h1>
+  </div>
+
+  <div id="logoutPage" class="page">
+    <h1>登出頁面</h1>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
